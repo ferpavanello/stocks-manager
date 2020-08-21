@@ -1,5 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import React from 'react'
+
 import Logo from '../components/templates/Logo'
 import Nav from '../components/templates/Nav'
 import Main from '../components/templates/Main'

@@ -1,6 +1,14 @@
+import './Nav.css'
 import React from 'react'
 
 export default props =>
   <aside className="menu-area">
-    Navigation
+    <nav className="menu">
+      <a href="/" className="home">
+        Home
+      </a>
+      <a href="/" className="stocks">
+        Stocks
+      </a>
+    </nav>
   </aside>
