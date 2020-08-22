@@ -5,7 +5,9 @@ export default class StockCrud extends Component {
   render() {
     return (
       <div>
-        <Main />
+        <Main>
+          CRUD
+        </Main>
       </div>
     )
   }

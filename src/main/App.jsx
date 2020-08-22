@@ -1,16 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 import Logo from '../components/templates/Logo'
 import Nav from '../components/templates/Nav'
-import Home from '../components/home/Home'
+import Routes from '../main/Routes'
 import Footer from '../components/templates/Footer'
 
 export default props => 
-  <div className="app">
-    <Logo />
-    <Nav />
-    <Home />
-    <Footer />
-  </div>
+  <BrowserRouter>
+    <div className="app">
+      <Logo />
+      <Nav />
+      <Routes />
+      <Footer />
+    </div>
+  </BrowserRouter>
